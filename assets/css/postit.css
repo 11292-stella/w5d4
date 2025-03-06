@@ -16,12 +16,26 @@ main{
     justify-content: center;
     align-items: center;
 }
+#conteiner-post article h2{
+    font-size: 1em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#conteiner-post article{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    font-size: 1em;
+    text-align: center;
+}
 
 .postit1,.postit2,.postit3,.postit4,.postit5,.postit6,.postit7,.postit8{
     width: 150px;
     height: 150px;
-    background-color: rgba(222, 5, 5, 0.993);
-    transition: all 3s linear 0s
+    background-color: #d30606fd;
+    transition: transform 3s ease, background-color 3s ease;
     
 }
 
@@ -94,3 +108,4 @@ background: linear-gradient(135deg, #675B7E 0%, #B9A3E3 50%, #8273A0 100%);
     background: linear-gradient(135deg, #839B80 0%, #BCDEB8 50%, #87A084 100%);
     transform: rotate(354deg);
 }
+ 
