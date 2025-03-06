@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#conteiner-card {
+    width: 400px;
+    background-image: url(../img/istockphoto-165883765-2048x2048.jpg);
+    border: 20px solid rgb(94, 58, 48);
+    border-radius: 12px;
+    height: 1000px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+#conteiner-card article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#conteiner-card h1 {
+    font-family: "Shadows Into Light", cursive;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+#conteiner-card p {
+    font-family: "Shadows Into Light", cursive;
+    font-size: 1em;
+}
+
+.card1, .card2, .card3, .card4, .card5, .card6, .card7, .card8 {
+    width: 150px;
+    height: 150px;
+    -webkit-box-shadow: 7px 5px 10px 1px rgba(55, 55, 55, 0.76);
+    box-shadow: 7px 5px 10px 1px rgba(55, 55, 55, 0.76);
+    transition: transform 0.3s ease; /* Transizione per rotazione fluida */
+}
+
+/* Rotazioni iniziali per le carte */
+.card1 {
+    background: #CECAA4;
+    background: linear-gradient(45deg, #CECAA4 0%, #FFFACC 50%, #DDD9B1 100%);
+    transform: rotate(344deg);
+}
+
+.card2 {
+    background: #675B7E;
+    background: linear-gradient(135deg, #675B7E 0%, #B9A3E3 50%, #8273A0 100%);
+    transform: rotate(20deg);
+}
+
+.card3 {
+    background: #839B80;
+    background: linear-gradient(135deg, #839B80 0%, #BCDEB8 50%, #87A084 100%);
+    transform: rotate(353deg);
+}
+
+.card4 {
+    background: #CECAA4;
+    background: linear-gradient(45deg, #CECAA4 0%, #FFFACC 50%, #DDD9B1 100%);
+    transform: rotate(344deg);
+}
+
+.card5 {
+    background: #675B7E;
+    background: linear-gradient(135deg, #675B7E 0%, #B9A3E3 50%, #8273A0 100%);
+    transform: rotate(20deg);
+}
+
+.card6 {
+    background: #839B80;
+    background: linear-gradient(135deg, #839B80 0%, #BCDEB8 50%, #87A084 100%);
+    transform: rotate(353deg);
+}
+
+.card7 {
+    background: #CECAA4;
+    background: linear-gradient(45deg, #CECAA4 0%, #FFFACC 50%, #DDD9B1 100%);
+    transform: rotate(344deg);
+}
+
+.card8 {
+    background: #675B7E;
+    background: linear-gradient(135deg, #675B7E 0%, #B9A3E3 50%, #8273A0 100%);
+    transform: rotate(20deg);
+}
+
+/* Quando il mouse passa sopra la carta, la rotazione viene annullata */
+.card1:hover, .card2:hover, .card3:hover, .card4:hover, .card5:hover, .card6:hover, .card7:hover, .card8:hover {
+    transform: rotate(0deg);
+}
