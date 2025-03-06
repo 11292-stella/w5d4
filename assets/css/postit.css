@@ -17,10 +17,10 @@ main{
     align-items: center;
 }
 
-.postit1{
+.postit1,.postit2,.postit3,.postit4,.postit5,.postit6,.postit7,.postit8{
     width: 150px;
     height: 150px;
-    background-color: rgba(228, 139, 228, 0.877);
+    background-color: rgba(252, 252, 252, 0.993);
     
 }
 
@@ -30,7 +30,7 @@ box-shadow: 7px 5px 10px 1px rgba(55,55,55,0.76);
 
 }
 
-#primo{
+#primo:hover{
     background: #CECAA4;
 background: -moz-linear-gradient(45deg, #CECAA4 0%, #FFFACC 50%, #DDD9B1 100%);
 background: -webkit-linear-gradient(45deg, #CECAA4 0%, #FFFACC 50%, #DDD9B1 100%);
@@ -38,7 +38,7 @@ background: linear-gradient(45deg, #CECAA4 0%, #FFFACC 50%, #DDD9B1 100%);
     transform: rotate(355deg);
 }
 
-#secondo{
+#secondo:hover{
     background: #839B80;
     background: -moz-linear-gradient(-45deg, #839B80 0%, #BCDEB8 50%, #87A084 100%);
     background: -webkit-linear-gradient(-45deg, #839B80 0%, #BCDEB8 50%, #87A084 100%);
@@ -46,7 +46,7 @@ background: linear-gradient(45deg, #CECAA4 0%, #FFFACC 50%, #DDD9B1 100%);
    transform: rotate(8deg);
 }
 
-#terzo{
+#terzo:hover{
     background: #675B7E;
     background: -moz-linear-gradient(-45deg, #675B7E 0%, #B9A3E3 50%, #8273A0 100%);
     background: -webkit-linear-gradient(-45deg, #675B7E 0%, #B9A3E3 50%, #8273A0 100%);
@@ -54,7 +54,7 @@ background: linear-gradient(45deg, #CECAA4 0%, #FFFACC 50%, #DDD9B1 100%);
     transform: rotate(354deg);
 }
 
-#quarto{
+#quarto:hover{
     background: #839B80;
 background: -moz-linear-gradient(-45deg, #839B80 0%, #BCDEB8 50%, #87A084 100%);
 background: -webkit-linear-gradient(-45deg, #839B80 0%, #BCDEB8 50%, #87A084 100%);
@@ -62,7 +62,7 @@ background: linear-gradient(135deg, #839B80 0%, #BCDEB8 50%, #87A084 100%);
     transform: rotate(9deg);
 }
 
-#quinto{
+#quinto:hover{
     background: #CECAA4;
 background: -moz-linear-gradient(45deg, #CECAA4 0%, #FFFACC 50%, #DDD9B1 100%);
 background: -webkit-linear-gradient(45deg, #CECAA4 0%, #FFFACC 50%, #DDD9B1 100%);
@@ -70,7 +70,7 @@ background: linear-gradient(45deg, #CECAA4 0%, #FFFACC 50%, #DDD9B1 100%);
     transform: rotate(340deg);
 }
 
-#sesto{
+#sesto:hover{
     background: #675B7E;
 background: -moz-linear-gradient(-45deg, #675B7E 0%, #B9A3E3 50%, #8273A0 100%);
 background: -webkit-linear-gradient(-45deg, #675B7E 0%, #B9A3E3 50%, #8273A0 100%);
@@ -78,7 +78,7 @@ background: linear-gradient(135deg, #675B7E 0%, #B9A3E3 50%, #8273A0 100%);
     transform: rotate(339deg);
 }
 
-#settimo{
+#settimo:hover{
     background: #CECAA4;
     background: -moz-linear-gradient(45deg, #CECAA4 0%, #FFFACC 50%, #DDD9B1 100%);
     background: -webkit-linear-gradient(45deg, #CECAA4 0%, #FFFACC 50%, #DDD9B1 100%);
@@ -86,7 +86,7 @@ background: linear-gradient(135deg, #675B7E 0%, #B9A3E3 50%, #8273A0 100%);
     transform: rotate(353deg);
 }
 
-#ottavo{
+#ottavo:hover{
     background: #839B80;
     background: -moz-linear-gradient(-45deg, #839B80 0%, #BCDEB8 50%, #87A084 100%);
     background: -webkit-linear-gradient(-45deg, #839B80 0%, #BCDEB8 50%, #87A084 100%);
