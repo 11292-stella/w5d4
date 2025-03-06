@@ -20,7 +20,8 @@ main{
 .postit1,.postit2,.postit3,.postit4,.postit5,.postit6,.postit7,.postit8{
     width: 150px;
     height: 150px;
-    background-color: rgba(252, 252, 252, 0.993);
+    background-color: rgba(222, 5, 5, 0.993);
+    transition: all 3s linear 0s
     
 }
 
@@ -43,7 +44,7 @@ background: linear-gradient(45deg, #CECAA4 0%, #FFFACC 50%, #DDD9B1 100%);
     background: -moz-linear-gradient(-45deg, #839B80 0%, #BCDEB8 50%, #87A084 100%);
     background: -webkit-linear-gradient(-45deg, #839B80 0%, #BCDEB8 50%, #87A084 100%);
     background: linear-gradient(135deg, #839B80 0%, #BCDEB8 50%, #87A084 100%);
-   transform: rotate(8deg);
+   transform: rotate(354deg);
 }
 
 #terzo:hover{
@@ -59,7 +60,7 @@ background: linear-gradient(45deg, #CECAA4 0%, #FFFACC 50%, #DDD9B1 100%);
 background: -moz-linear-gradient(-45deg, #839B80 0%, #BCDEB8 50%, #87A084 100%);
 background: -webkit-linear-gradient(-45deg, #839B80 0%, #BCDEB8 50%, #87A084 100%);
 background: linear-gradient(135deg, #839B80 0%, #BCDEB8 50%, #87A084 100%);
-    transform: rotate(9deg);
+    transform: rotate(354deg);
 }
 
 #quinto:hover{
@@ -91,5 +92,5 @@ background: linear-gradient(135deg, #675B7E 0%, #B9A3E3 50%, #8273A0 100%);
     background: -moz-linear-gradient(-45deg, #839B80 0%, #BCDEB8 50%, #87A084 100%);
     background: -webkit-linear-gradient(-45deg, #839B80 0%, #BCDEB8 50%, #87A084 100%);
     background: linear-gradient(135deg, #839B80 0%, #BCDEB8 50%, #87A084 100%);
-    transform: rotate(6deg);
+    transform: rotate(354deg);
 }
